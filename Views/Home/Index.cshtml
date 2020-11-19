@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-3">Welcome To Mario World!!</h1>
+<br>
+<br>
+    <h4>
+        Fullness: @ViewBag.Fullness
+        Happiness: @ViewBag.Happiness
+        Meals: @ViewBag.Meals
+        Energy: @ViewBag.Energy
+    </h4>
+<br>
+<h3>@ViewBag.Reaction</h3>
+<br>
+    <i class="nes-mario"></i>
+<br>
+<br>
+<br>
+    <a href="/feed"class="nes-btn is-primary">Feed</a>
+    <a href="/play"class="nes-btn is-error">Play</a>
+    <a href="/work"class="nes-btn is-success">Work</a>
+    <a href="/sleep"class="nes-btn is-warning">Sleep</a>
+<br>
+<br>
+
+    <div>
+        <a href="/" class="nes-btn is-default">Reset</a>
+    </div>
+</div>
